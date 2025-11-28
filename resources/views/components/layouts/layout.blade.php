@@ -17,9 +17,8 @@
 <main class="bg-main h-main" >
     {{$slot}}
 </main>
-<footer class="h-footer bg-footer">
-    estoy en footer
-</footer>
+<x-layouts.footer />
+
 
 </body>
 </html>

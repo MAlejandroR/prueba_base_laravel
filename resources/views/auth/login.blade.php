@@ -1,6 +1,9 @@
 <x-layouts.layout>
+    <div class="flex flex-row justify-center items-center bg-gray-300 min-h-full">
+        <div class="bg-white p-3 rounded-xl">
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
+
 
     <form method="POST" action="{{ route('login') }}">
         @csrf
@@ -44,4 +47,6 @@
             </x-primary-button>
         </div>
     </form>
+    </div>
+    </div>
 </x-layouts.layout>
