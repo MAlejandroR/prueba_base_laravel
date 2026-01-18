@@ -99,3 +99,5 @@ Ahora queda wrappear todos los textos de html que escribamos en la función corr
 
 
 
+[Clase para el lunes 19/01/2026](./Doc_clases/lunes_19_1.md)
+

@@ -14,4 +14,9 @@ class Alumno extends Model
 
     protected $fillable = ['nombre', 'apellido', 'email', 'fecha_nacimiento'];
 
+    public static function getLabels():array{
+        $fields = __("alumnos.fields");
+        return $fields;
+    }
+
 }

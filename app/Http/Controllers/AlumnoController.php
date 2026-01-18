@@ -16,7 +16,9 @@ class AlumnoController extends Controller
     {
         //
         $filas = Alumno::all();
-        $campos = Schema::getColumnListing('alumnos');
+//        $campos = Schema::getColumnListing('alumnos');
+//        $campos = $filas?->first()->getFillable();
+        $campos = Alumno::getLabels();
         return view('instituto.alumnos.index', compact('campos','filas'));
 
     }

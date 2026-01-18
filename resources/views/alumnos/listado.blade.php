@@ -7,6 +7,7 @@
         <table class="table table-xs table-pin-rows table-pin-cols w-full">
             <thead>
             <tr>
+
                 @foreach($campos as $campo)
                     <th class="p-3">{{$campo}}</th>
                     <th></th>
