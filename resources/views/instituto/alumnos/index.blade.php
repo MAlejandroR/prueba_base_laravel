@@ -1,4 +1,7 @@
 <x-layouts.layout>
+    <div id="vue-app">
+        <TableVue campos=@json($campos) filas=@json($filas)/>
+    </div>
     <div class="overflow-x-auto h-full w-full flex flex-col justify-center items-center">
         <div class="inline-block">
             <table class="table table-xs table-pin-rows table-pin-cols">

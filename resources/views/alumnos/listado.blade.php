@@ -1,4 +1,8 @@
 <x-layouts.layout>
+    <div id="#vue-app">
+        <TableVue />
+    </div>
+
 
     <div class="overflow-x-auto h-full w-full">
         <a href="{{route("alumnos.create")}}">

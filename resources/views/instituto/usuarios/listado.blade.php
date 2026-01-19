@@ -1,5 +1,4 @@
 <x-layouts.layout>
-
     <div class="overflow-x-auto h-full w-full">
         <a href="{{route("alumnos.create")}}">
             <button class="btn btn-primary">Crear Usuario</button>
